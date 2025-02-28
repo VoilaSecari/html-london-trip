@@ -1,0 +1,57 @@
+/* Generics */
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+hr {
+  border-width: 1px;
+  border-style: dashed;
+  border-color: rgb(197, 197, 228);
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 23pt;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+/* Utils */
+
+.text-dark-grey {
+  color: rgb(78, 78, 78);
+}
+
+.text-dark-blue {
+  color: rgb(88, 88, 131);
+}
+
+.font-bold {
+  font-weight: 500;
+}
+
+.font-light {
+  font-weight: 100;
+}
+
+.font-titoli {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Table */
+
+table {
+  width: 300px;
+}
+
+thead {
+  text-align: left;
+}

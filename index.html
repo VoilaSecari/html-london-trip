@@ -6,121 +6,132 @@
     <meta name="author" content="Laura Filip" />
     <meta name="description" content="Il mio viaggio a Londra" />
     <title>Viaggio a Londra</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Il mio viaggio a Londra</h1>
-    </header>
-    <div>
-      <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="Immagine1" />
-      <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Immagine2" />
-      <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Immagine3" />
+    <div class="container">
+      <header>
+        <h1 class="font-titoli font-bold">Il mio viaggio a Londra</h1>
+      </header>
+      <div>
+        <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="Immagine1" />
+        <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Immagine2" />
+        <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Immagine3" />
+      </div>
+      <hr />
+      <main>
+        <section>
+          <h2 class="font-titoli font-light">Le mie spese</h2>
+          <table>
+            <thead class="text-dark-blue">
+              <tr>
+                <th>Numero</th>
+                <th>Descrizione</th>
+                <th>Costo</th>
+              </tr>
+            </thead>
+
+            <tbody class="text-dark-grey font-light">
+              <tr>
+                <td>1</td>
+                <td>Biglietto Aereo</td>
+                <td>120€</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>Biglietto Aereo</td>
+                <td>120€</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>Biglietto Aereo</td>
+                <td>120€</td>
+              </tr>
+            </tbody>
+
+            <tfoot class="text-dark-blue font-bold">
+              <tr>
+                <td colspan="2">Totale</td>
+                <td>120€</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+
+        <hr />
+
+        <section>
+          <h2 class="font-titoli font-light">Cose da fare</h2>
+
+          <ul class="text-dark-grey">
+            <li>Visitare la Tower of London &#10007;</li>
+            <li>Visitare Greenwich &#10003;</li>
+            <li>Ascoltare un artista di strada a Covent &#10003;</li>
+            <li>Mangiare il tipico Fish and Chips inglese &#10007;</li>
+          </ul>
+        </section>
+
+        <hr />
+
+        <section>
+          <h2 class="font-titoli font-light">Info utili:</h2>
+          <ol class="text-dark-grey">
+            <li>
+              Numeri utili di emergenza
+              <ul class="font-light">
+                <li><b class="text-dark-blue">999</b> - Emergenza</li>
+                <li><b class="text-dark-blue">101</b> - Numero polizia</li>
+                <li>
+                  <b class="text-dark-blue">111</b> - Numero assistenza medica
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Hotel
+              <ul class="font-light">
+                <li>
+                  <b class="text-dark-blue">Hotel name:</b> Buckingham Palace
+                </li>
+                <li>
+                  <b class="text-dark-blue">Indirizzo hotel:</b> Westminster,
+                  London SW1A 1AA, Regno Unito
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Aereo
+              <ul class="font-light">
+                <li>
+                  <b class="text-dark-blue">Volo di andata</b> YI234X, ore 9.30
+                  da Milano Malpensa
+                </li>
+                <li>
+                  <b class="text-dark-blue">Volo di ritorno:</b> YI236X, ore
+                  18.30 da London Heathrow
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+      </main>
+      <hr />
+
+      <section>
+        <h2 class="font-titoli font-light">Le foto</h2>
+        <img
+          src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+          alt="foto1"
+        />
+        <img
+          src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
+          alt="foto2"
+        />
+      </section>
     </div>
-    <hr />
-    <main>
-      <section>
-        <h2>Le mie spese</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Numero</th>
-              <th>Descrizione</th>
-              <th>Costo</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Biglietto Aereo</td>
-              <td>120€</td>
-            </tr>
-
-            <tr>
-              <td>1</td>
-              <td>Biglietto Aereo</td>
-              <td>120€</td>
-            </tr>
-
-            <tr>
-              <td>1</td>
-              <td>Biglietto Aereo</td>
-              <td>120€</td>
-            </tr>
-          </tbody>
-
-          <tfoot>
-            <tr>
-              <td colspan="2">Totale</td>
-              <td>120€</td>
-            </tr>
-          </tfoot>
-        </table>
-      </section>
-
-      <hr />
-
-      <section>
-        <h2>Cose da fare</h2>
-
-        <ul>
-          <li>Visitare la Tower of London &#10007;</li>
-          <li>Visitare Greenwich &#10003;</li>
-          <li>Ascoltare un artista di strada a Covent &#10003;</li>
-          <li>Mangiare il tipico Fish and Chips inglese &#10007;</li>
-        </ul>
-      </section>
-
-      <hr />
-
-      <section>
-        <h2>Info utili:</h2>
-        <ol>
-          <li>
-            Numeri utili di emergenza
-            <ul>
-              <li><b>999</b> - Emergenza</li>
-              <li><b>101</b> - Numero polizia</li>
-              <li><b>111</b> - Numero assistenza medica</li>
-            </ul>
-          </li>
-
-          <li>
-            Hotel
-            <ul>
-              <li><b>Hotel name:</b> Buckingham Palace</li>
-              <li>
-                <b>Indirizzo hotel:</b> Westminster, London SW1A 1AA, Regno
-                Unito
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            Aereo
-            <ul>
-              <li><b>Volo di andata</b> YI234X, ore 9.30 da Milano Malpensa</li>
-              <li>
-                <b>Volo di ritorno:</b> YI236X, ore 18.30 da London Heathrow
-              </li>
-            </ul>
-          </li>
-        </ol>
-      </section>
-    </main>
-    <hr />
-
-    <section>
-      <h2>Le foto</h2>
-      <img
-        src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
-        alt="foto1"
-      />
-      <img
-        src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
-        alt="foto2"
-      />
-    </section>
   </body>
 </html>
